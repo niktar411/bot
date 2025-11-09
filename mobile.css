@@ -1,0 +1,137 @@
+/* Адаптивность для мобильных устройств */
+@media (max-width: 768px) {
+    .user-profile {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+        max-height: 170px;
+    }
+    
+    .avatar-container {
+        position: static;
+        order: 1;
+    }
+    
+    .user-info {
+        position: static;
+        order: 2;
+        width: 100%;
+    }
+    
+    .theme-toggle-container {
+        position: static;
+        order: 3;
+        margin-top: 1rem;
+    }
+    .features-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .feature-card {
+        padding: 1.2rem;
+    }
+    
+    .feature-card h3 {
+        font-size: 1rem;
+    }
+    
+    .feature-card p {
+        font-size: 0.85rem;
+    }
+    .form-actions {
+        flex-direction: column;
+    }
+    
+    .btn-primary,
+    .btn-secondary {
+        flex: none;
+        width: 100%;
+    }
+    
+    .form-group input {
+        padding: 10px 12px;
+    }
+    .name {
+        font-size: 1.8rem;
+    }
+    
+    .content {
+        padding: 2rem 1.5rem;
+        margin: 1rem;
+    }
+    
+    .content h2 {
+        font-size: 1.5rem;
+    }
+    
+    .content p {
+        font-size: 1rem;
+    }
+    
+    .features {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .btn {
+        padding: 12px 30px;
+        font-size: 1rem;
+        width: 100%;
+        max-width: 300px;
+    }
+    .user-profile {
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem;
+    }
+    
+    .avatar-container {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+    
+    .avatar {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .theme-toggle-container {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+    
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .stat-card {
+        padding: 1rem;
+    }
+    
+    .stat-value {
+        font-size: 1.5rem;
+    }
+
+    .no-students-message {
+        padding: 1.5rem;
+        margin: 1.5rem 0;
+    }
+    
+    .message-icon {
+        font-size: 2.5rem;
+    }
+    
+    .no-students-message h3 {
+        font-size: 1.2rem;
+    }
+    
+    .no-students-message p {
+        font-size: 0.9rem;
+    }
+
+    .message-header {
+        flex-direction: column;
+        text-align: center;
+    }
+}

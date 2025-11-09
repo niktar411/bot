@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Bot</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile.css" />
+    <link rel="stylesheet" href="guide.css" />
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="content">
+                <!-- Профиль пользователя -->
+                <div class="user-profile">
+                    <div class="avatar-container">
+                        <img id="user-avatar" src="" alt="Аватар пользователя" class="avatar">
+                    </div>
+                    <div class="user-info">
+                        <h2 id="user-name">Имя пользователя</h2>
+                        <p id="user-username">@username</p>
+                    </div>
+                    <!-- Переключатель темы -->
+                    <div class="theme-toggle-container">
+                        <!--<span class="theme-label">Смена темы</span>
+                        <label class="theme-toggle" for="theme-toggle">
+                            <input type="checkbox" id="theme-toggle">
+                            <span class="theme-slider"></span>
+                        </label>-->
+                    </div>
+                </div>
+                
+                <!-- Статистика -->
+                <div class="stats-section">
+                    <h3>Статистика выполненных заданий</h3>
+                    <div class="no-students-message">
+                        <div class="message-header">
+                            <h3>Статистика учеников</h3>
+                        </div>
+                        <div class="message-content">
+                            <div class="message-icon">📊</div>
+                            <p>Пока что учеников нет или данные отсутствуют.</p>
+                        </div>
+                    </div>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-value" id="completed-tasks">0</div>
+                            <div class="stat-label">Количество учеников</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value" id="success-rate">0%</div>
+                            <div class="stat-label">Успеваемость</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <h2>Что умеет бот?</h2>
+                <div class="features-grid">
+                    <!-- Карточки фич остаются без изменений -->
+                    <div class="feature-card">
+                        <h3>🎯 Персонализированное обучение</h3>
+                        <p>Адаптивная программа под уровень и темп учеников.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <h3>📚 Интерактивные уроки</h3>
+                        <p>Практические задания и квизы с мгновенной проверкой знаний.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <h3>📊 Контролировать успеваемость</h3>
+                        <p>Отслеживание успехов и прогресса учеников.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <h3>🤖 ИИ-помощник 24/7</h3>
+                        <p>Бот работает все время и может предоставлять задания ежедневно.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+    
+    <script src="index.js"></script>
+</body>
+</html>
