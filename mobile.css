@@ -4,7 +4,7 @@
         flex-direction: column;
         text-align: center;
         gap: 1rem;
-        max-height: 200px;
+        max-height: 210px;
     }
     
     .avatar-container {
